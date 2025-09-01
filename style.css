@@ -1,0 +1,21 @@
+#form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+input {
+    width: 200px;
+    height: 30px;
+    margin: 20px;
+}
+label {
+    font-size: 40px;
+}
+button {
+    width: 100px;
+    height: 35px;
+    font-size: 20px;
+    border-radius: 10px;
+}

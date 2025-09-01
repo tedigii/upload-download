@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>File</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <form action="/upload" id="form">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" required />
+
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required />
+
+            <label for="file">File</label>
+            <input type="file" name="file" id="file" multiple />
+
+            <button type="submit">Submit</button>
+        </form>
+
+        <script src="front-end.js"></script>
+    </body>
+</html>
